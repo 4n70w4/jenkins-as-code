@@ -53,7 +53,7 @@ jobs:
               node('master') {
                 deleteDir()
                 stage('Deploy Jenkins') {
-                  git(url: 'https://github.com/d-shch/jenkins-as-code.git', 
+                  git(url: 'https://github.com/4n70w4/jenkins-as-code.git', 
                     branch: 'master')
                   sh(label: 'Update Jobs via JJB', 
                     script: '''
