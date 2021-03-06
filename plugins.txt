@@ -1,6 +1,5 @@
 workflow-aggregator:2.6
 configuration-as-code:1.47
-configuration-as-code-support:1.18
 git-parameter:0.9.13
 credentials:2.3.15
 git:4.6.0
