@@ -68,7 +68,7 @@ jobs:
                     script: '''
                       rm /usr/share/jenkins/jenkins.yaml
                       cp jenkins.yaml /usr/share/jenkins/jenkins.yaml
-                      curl -X POST localhost:8080/configuration-as-code/reload
+                      curl -X POST http://localhost:8080/reload-configuration-as-code/?casc-reload-token=myReloadPassword
                     ''')
                 }
               }""".stripIndent())
