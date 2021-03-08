@@ -9,7 +9,6 @@ uno-choice:2.5.4
 timestamper:1.11.8
 github-oauth:0.33
 slack:2.45
-parameterized-trigger:2.40
 copyartifact:1.46
 htmlpublisher:1.25
 junit:1.48
