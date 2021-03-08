@@ -1,5 +1,5 @@
 jenkins:
-  systemMessage: "Jenkins as Code"
+  systemMessage: "Jenkins as Code updated"
   views:
     - list:
         includeRegex: ".*"
