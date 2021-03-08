@@ -8,7 +8,6 @@ matrix-auth:2.6.5
 uno-choice:2.5.4
 timestamper:1.11.8
 github-oauth:0.33
-envinject:2.4.0
 slack:2.45
 parameterized-trigger:2.40
 copyartifact:1.46
